@@ -1,0 +1,90 @@
+/* common css start */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul , ol{
+    list-style: none;
+
+}
+/* common css end */
+/* header start */
+header {
+    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    padding: 7px 0;
+}
+header .box{
+    display: flex;
+    justify-content: space-between;
+}
+header .box .left{
+    display: flex;
+    column-gap: 50px;
+    
+}
+header .box .left a{
+    color: #fff;
+    font-size: 18px;
+}
+header .box .left a span{
+    margin-left: 10px;
+}
+
+/* header end */
+/* nav start */
+nav{
+    padding: 20px 0;
+}
+nav .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    column-gap: 30px;
+}
+nav ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+/* nav end */
+/* banner start */
+#banner{
+    padding: 100px 0;
+}
+#banner .box{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+#banner .box h2{
+    font-size: 20px;
+    
+}
+#banner .box .selection select{
+    padding: 5px 20px;
+    color: #000;
+}
+#banner .box .selection select option{
+    color: #000;
+}
+#banner .box .duration input{
+    padding: 4px 20px;
+}
+/* banner end */
